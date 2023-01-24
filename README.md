@@ -3,7 +3,7 @@
 Build a two player tic-tac-toe game
 
 
-- Define board, 3x3 matrix
+- Define board, 3x3 array
 - How to take input
 - how to display UI
 - Game End condition
@@ -12,3 +12,11 @@ Build a two player tic-tac-toe game
 - Scoring
 - Timing (limit time to play turn)
 - selecting characters (X,O etc)
+
+
+Array:
+[["-", "-", "-"], ["-", "-", "-"], ["-", "-", "-"]]
+
+---
+---
+---
