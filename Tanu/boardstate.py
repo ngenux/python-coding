@@ -20,7 +20,7 @@ def boardstate(loc,txto):
         board = [["-", "-", "-"], ["-", "-", "-"], ["-", "-", "X"]]
     if loc == 1 and txto == 'o':
         board = [["O", "-", "-"], ["-", "-", "-"], ["-", "-", "-"]]
-    elif loc == 2 and txto == 'x':
+    elif loc == 2 and txto == 'o':
         board = [["-", "O", "-"], ["-", "-", "-"], ["-", "-", "-"]]
     elif loc == 3 and txto == 'o':
         board = [["-", "-", "O"], ["-", "-", "-"], ["-", "-", "-"]]
