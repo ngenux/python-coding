@@ -10,8 +10,8 @@ def display_board(board):
 
 
 def player_move(board, player_mark):
-    row = int(input(f"Enter row, col for {player_mark}"))
-    col = int(input(f"Enter row, col for {player_mark}"))
+    row = int(input(f"Enter row for {player_mark}"))
+    col = int(input(f"Enter col for {player_mark}"))
     if board[row][col] == " - ":
         board[row][col] == player_mark
         return True, row, col
