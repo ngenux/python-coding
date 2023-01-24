@@ -8,7 +8,17 @@ def display_board(board):
         print("|".join(board[i]))
     print("---" * 4)
 
-def player_move(board, player, choice):
+
+def player_move(board, player_mark):
+    row = int(input(f"Enter row, col for {player_mark}"))
+    col = int(input(f"Enter row, col for {player_mark}"))
+    if board[row][col] == " - ":
+        board[row][col] == player_mark
+        return True, row, col
+    else:
+        print("Wrong move, try again")
+        return False, None, None
+
 
 if __name__ == "__main__":
     board = create_board()
