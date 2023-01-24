@@ -12,4 +12,3 @@ Build a two player tic-tac-toe game
 - Scoring
 - Timing (limit time to play turn)
 - selecting characters (X,O etc)
-- 
