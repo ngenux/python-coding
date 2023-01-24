@@ -1,5 +1,7 @@
-def boardstate(loc,txto):
-    board = [["-", "-", "-"], ["-", "-", "-"], ["-", "-", "-"]]
+def boardstate(loc,txto,start):
+    if start == 1:
+        board = [["-", "-", "-"], ["-", "-", "-"], ["-", "-", "-"]]
+        
     if loc == 1 and txto == 'x':
         board = [["X", "-", "-"], ["-", "-", "-"], ["-", "-", "-"]]
     elif loc == 2 and txto == 'x':
