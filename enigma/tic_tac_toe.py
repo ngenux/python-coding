@@ -176,7 +176,6 @@ def roll_dice(player_names, player_colors):
             console.print(
                 "Oops its a tie. Lets roll again..", style="green"
             )  # If both players roll the same number
-            continue
         elif player1_roll > player2_roll:
             console.print(
                 Text(player_names[0], style=f"{player_colors[0]}"),
@@ -284,7 +283,6 @@ def get_valid_player_names():
             console.print(
                 "Both players cannot have the same name. Please try again.", style="red"
             )
-            continue
         else:
             # If names are valid, return a list of player names
             return [player1_name, player2_name]
@@ -470,7 +468,6 @@ def game_loop(
             return player_scores
         # changes the current player to the next player
         current_player = (current_player + 1) % 2
-        continue
 
 
 def exit_game():
@@ -545,4 +542,3 @@ if __name__ == "__main__":
             subprocess.run(["cls" if sys.platform == "win32" else "clear"], shell=True)
             console.print("Restarting Game..")
             time.sleep(3)
-            continue
