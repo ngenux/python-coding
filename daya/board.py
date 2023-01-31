@@ -17,6 +17,12 @@ class Board(object):
             for tile in row:
                 sys.stdout.write(str(tile) + "|")
             sys.stdout.write("\n")
+    
+    def reset_boards(self):
+        pass
+        
+    def play(self):
+        pass
 
 if __name__ == "__main__":
     bo = Board(5,"*")
