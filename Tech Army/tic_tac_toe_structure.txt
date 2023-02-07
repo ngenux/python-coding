@@ -1,0 +1,53 @@
+Steps:
+1)designing a tic tac toe Python program 3X3 gameboard.
+2)Using the Data Structure to Store Data:
+The Status of Grid: For this we will create a data structure that stores the status for each cell which can be either filled or empty.
+
+The Move of each player: it is always good to store the past and present moves of each player which are the positions occupied by 'X' and 'O'.
+
+Best practices to follow:
+1) Logging
+2) Type hints.
+3) Pep8 guideliness.
+4) Proper comments and function documentation.
+5) 
+
+class Layout :
+	create_game
+	self.board_dict = {} 
+	display_board
+	modify_board
+	
+class Player:
+	Initialise_player
+	
+class Play :
+	check_won:
+		row_win(), col_win(), and diag_win() functions check whether the player has three of their marks in a horizontal row, vertical row, or diagonal row, respectively.
+	change_turn
+	
+main method 
+	layout = Layout()
+	player1 = Player('X')
+	player2 = Player('O')
+	for i in range (9):
+		layout.display_board()
+		position = ask input from player 1 
+		layout.modify_board(position,player_1)
+		Play.check_won(player_1)
+			break;
+		change_turn
+	if i==9 :
+		stop_game
+		
+dict 
+dict["TC"] = X
+dict["TM"] = " "
+
+
+print (dict["TC"] + " " + )
+		
+
+	
+
+	
